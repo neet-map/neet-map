@@ -5,12 +5,23 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white dark:from-gray-900 dark:to-gray-800">
       <main className="container mx-auto px-4 py-16">
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-6xl font-bold text-blue-600 dark:text-blue-400 mb-4">
-            NEET相互扶助計画(仮)
-          </h1>
-          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            It's the only NEET things to do
-          </p>
+          <div className="flex flex-col items-center gap-4">
+            <div className="relative w-24 h-24 md:w-32 md:h-32">
+              <Image
+                src="/neet-icon.svg"
+                alt="NEET相互扶助計画アイコン"
+                fill
+                className="object-contain"
+                priority
+              />
+            </div>
+            <h1 className="text-4xl md:text-6xl font-bold text-blue-600 dark:text-blue-400 mb-4">
+              NEET相互扶助計画(仮)
+            </h1>
+            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+              It's the only NEET things to do
+            </p>
+          </div>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -45,12 +56,6 @@ export default function Home() {
           </a>
         </div>
       </main>
-
-      <footer className="bg-gray-100 dark:bg-gray-900 py-8 mt-16">
-        <div className="container mx-auto px-4 text-center text-gray-600 dark:text-gray-400">
-          <p>© 2024 NEET相互扶助計画 All rights reserved.</p>
-        </div>
-      </footer>
     </div>
   );
 }
