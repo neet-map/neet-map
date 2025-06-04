@@ -6,15 +6,6 @@ export default function Home() {
       <main className="container mx-auto px-4 py-16">
         <div className="text-center mb-16">
           <div className="flex flex-col items-center gap-4">
-            <div className="relative w-24 h-24 md:w-32 md:h-32">
-              <Image
-                src="/neet-icon.svg"
-                alt="NEET相互扶助計画アイコン"
-                fill
-                className="object-contain"
-                priority
-              />
-            </div>
             <h1 className="text-4xl md:text-6xl font-bold text-blue-600 dark:text-blue-400 mb-4">
               NEET相互扶助計画(仮)
             </h1>
