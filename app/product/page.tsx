@@ -12,7 +12,7 @@ export default function ProductPage() {
               作ったもの
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              私達がこれまでに開発したアプリ・サービスを紹介します
+              これまでに開発したアプリ・サービスを紹介します
             </p>
           </div>
         </div>
