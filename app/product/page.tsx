@@ -25,7 +25,7 @@ export default function ProductPage() {
               {/* アプリ情報 */}
               <div className="flex-1">
                 <div className="flex items-center gap-4 mb-6">
-                  <div className="text-4xl">📝</div>
+                  <img src="/neattodo_icon.png" alt="NeatTodo アイコン" className="w-16 h-16" />
                   <div>
                     <a href="/product/neattodo" className="block">
                       <h2 className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2 hover:text-blue-700 dark:hover:text-blue-300 transition-colors duration-200 cursor-pointer">
@@ -33,7 +33,7 @@ export default function ProductPage() {
                       </h2>
                     </a>
                     <p className="text-gray-600 dark:text-gray-300">
-                      シンプルで使いやすいTodoアプリケーション
+                      シンプルなTodoアプリケーション
                     </p>
                   </div>
                 </div>
@@ -45,23 +45,15 @@ export default function ProductPage() {
                   <ul className="space-y-2 text-gray-600 dark:text-gray-300">
                     <li className="flex items-center gap-2">
                       <span className="text-blue-600 dark:text-blue-400">✓</span>
-                      タスクの追加・編集・削除
+                      基本的なタスク管理
                     </li>
                     <li className="flex items-center gap-2">
                       <span className="text-blue-600 dark:text-blue-400">✓</span>
-                      完了状態の管理
+                      タスクの習慣化
                     </li>
                     <li className="flex items-center gap-2">
                       <span className="text-blue-600 dark:text-blue-400">✓</span>
                       優先度の設定
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <span className="text-blue-600 dark:text-blue-400">✓</span>
-                      カテゴリー分類
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <span className="text-blue-600 dark:text-blue-400">✓</span>
-                      レスポンシブデザイン
                     </li>
                   </ul>
                 </div>
@@ -74,15 +66,11 @@ export default function ProductPage() {
               {/* アプリスクリーンショット/プレビュー */}
               <div className="flex-1">
                 <div className="bg-gray-100 dark:bg-gray-700 rounded-lg p-6 h-80 flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="text-6xl mb-4">📱</div>
-                    <p className="text-gray-600 dark:text-gray-300">
-                      アプリのスクリーンショット
-                    </p>
-                    <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">
-                      （画像は後で追加予定）
-                    </p>
-                  </div>
+                  <img 
+                    src="/NeatTodo.png" 
+                    alt="NeatTodo アプリのスクリーンショット"
+                    className="max-w-full max-h-full object-contain rounded-lg"
+                  />
                 </div>
               </div>
             </div>
