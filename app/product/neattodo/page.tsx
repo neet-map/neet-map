@@ -16,9 +16,18 @@ export default function NeatTodoDetailPage() {
               シンプルなTodoアプリケーション
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-8">
-              <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg transition-colors duration-200 text-lg">
-                Google Play Store (準備中)
-              </button>
+              <a 
+                href="https://play.google.com/store/apps/details?id=com.syun561.todoapp"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:opacity-80 transition-opacity duration-200"
+              >
+                <img 
+                  src="/GetItOnGooglePlay_Badge_Web_color_English.png" 
+                  alt="Google Play で手に入れよう"
+                  className="h-16 w-auto"
+                />
+              </a>
               {/* <button className="border-2 border-blue-600 hover:bg-blue-600 hover:text-white text-blue-600 font-bold py-4 px-8 rounded-lg transition-colors duration-200 text-lg">
                 GitHub で見る
               </button> */}
