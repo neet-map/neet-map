@@ -36,7 +36,7 @@ export default function Home() {
           <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
             <h2 className="text-2xl font-semibold text-blue-600 dark:text-blue-400 mb-4">コミュニティ</h2>
             <p className="text-gray-600 dark:text-gray-300">
-              Discordを利用し、情報共有や、各自毎週進捗報告などをしています。
+              Discordを利用し、情報共有や、進捗報告などをしています。
             </p>
           </div>
         </div>
