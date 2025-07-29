@@ -40,6 +40,16 @@ export default function Header() {
             >
               作ったもの
             </Link>
+            <Link
+              href="/donate"
+              className={`font-medium transition-colors duration-200 ${
+                pathname === '/donate' 
+                  ? 'text-green-600 dark:text-green-400' 
+                  : 'text-gray-600 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400'
+              }`}
+            >
+              寄付する
+            </Link>
             <a
               href="https://discord.gg/BtqQecTW"
               className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full transition-colors duration-200 text-sm md:text-base"
