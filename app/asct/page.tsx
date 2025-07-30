@@ -35,15 +35,15 @@ export default function AsctPage() {
                   </div>
                   <div className="flex flex-col sm:flex-row sm:gap-4">
                     <span className="font-medium text-gray-800 dark:text-white min-w-50">所在地</span>
-                    <span>請求があったら遅滞なく開示します</span>
+                    <span>東京都千代田区神田和泉町1番地6-16ヤマトビル405</span>
                   </div>
                   <div className="flex flex-col sm:flex-row sm:gap-4">
                     <span className="font-medium text-gray-800 dark:text-white min-w-50">電話番号</span>
-                    <span>請求があったら遅滞なく開示します</span>
+                    <span>070-8422-8971</span>
                   </div>
                   <div className="flex flex-col sm:flex-row sm:gap-4">
                     <span className="font-medium text-gray-800 dark:text-white min-w-50">メールアドレス</span>
-                    <span>keymon114514@gmail.com</span>
+                    <span>support@neet-map.com</span>
                   </div>
                   <div className="flex flex-col sm:flex-row sm:gap-4">
                     <span className="font-medium text-gray-800 dark:text-white min-w-50">運営統括責任者</span>
