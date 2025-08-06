@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white dark:from-gray-900 dark:to-gray-800">
       <Header />
-      <main className="container mx-auto px-4 py-16">
+      <main className="container mx-auto px-4 pt-20 pb-16">
         <div className="text-center mb-16">
           <div className="flex flex-col items-center gap-4">
             <h1 className="text-4xl md:text-6xl font-bold text-blue-600 dark:text-blue-400 mb-4">
