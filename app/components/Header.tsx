@@ -7,8 +7,8 @@ export default function Header() {
   const pathname = usePathname();
 
   return (
-    <header className="bg-white dark:bg-gray-800 shadow-lg">
-      <div className="container mx-auto px-4 py-4">
+    <header className="sticky top-0 left-0 right-0 bg-white dark:bg-gray-800 shadow-lg z-50">
+      <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
           {/* ロゴ/サイト名 */}
           <Link 
@@ -29,6 +29,16 @@ export default function Header() {
               }`}
             >
               ホーム
+            </Link>
+            <Link
+              href="/about"
+              className={`font-medium transition-colors duration-200 ${
+                pathname === '/about' 
+                  ? 'text-blue-600 dark:text-blue-400' 
+                  : 'text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400'
+              }`}
+            >
+              私たちについて
             </Link>
             <Link
               href="/product"

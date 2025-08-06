@@ -4,7 +4,7 @@ export default function NeatTodoDetailPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white dark:from-gray-900 dark:to-gray-800">
       <Header />
-      <main className="container mx-auto px-4 py-16">
+      <main className="container mx-auto px-4 pt-20 pb-16">
         {/* ヒーローセクション */}
         <div className="text-center mb-16">
           <div className="flex flex-col items-center gap-6">

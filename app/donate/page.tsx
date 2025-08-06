@@ -4,7 +4,7 @@ export default function DonatePage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white dark:from-gray-900 dark:to-gray-800">
       <Header />
-      <main className="container mx-auto px-4 py-8">
+      <main className="container mx-auto px-4 pt-20 pb-8">
         {/* ヒーローセクション */}
         <div className="text-center mb-8">
           <h1 className="text-3xl md:text-4xl font-bold text-green-600 dark:text-green-400 mb-2">
