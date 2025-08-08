@@ -11,7 +11,7 @@ export default function About() {
               私たちについて
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-              NEET相互扶助計画の理念と目指す未来について
+              NEET相互扶助計画の考え方
             </p>
           </div>
 
@@ -49,51 +49,6 @@ export default function About() {
                   感覚に陥りがちです。私たちは、そんな境遇にある人々が繋がり合い、
                   お互いを理解し支え合える場を作りたいと考えました。
                 </p>
-              </div>
-            </section>
-
-            {/* 大切にしている価値観 */}
-            <section className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg">
-              <h2 className="text-3xl font-semibold text-blue-600 dark:text-blue-400 mb-6">
-                大切にしている価値観
-              </h2>
-              <div className="grid md:grid-cols-2 gap-6">
-                <div className="space-y-3">
-                  <h3 className="text-xl font-semibold text-blue-500 dark:text-blue-300">
-                    多様性の尊重
-                  </h3>
-                  <p className="text-gray-600 dark:text-gray-300">
-                    一人ひとりの価値観、生き方、ペースを尊重し、
-                    画一的な「正解」を押し付けることはしません。
-                  </p>
-                </div>
-                <div className="space-y-3">
-                  <h3 className="text-xl font-semibold text-blue-500 dark:text-blue-300">
-                    相互扶助
-                  </h3>
-                  <p className="text-gray-600 dark:text-gray-300">
-                    お互いの得意分野を活かし合い、困ったときは支え合い、
-                    共に成長していくことを大切にしています。
-                  </p>
-                </div>
-                <div className="space-y-3">
-                  <h3 className="text-xl font-semibold text-blue-500 dark:text-blue-300">
-                    自分らしさ
-                  </h3>
-                  <p className="text-gray-600 dark:text-gray-300">
-                    社会の期待よりも、自分自身が本当にやりたいこと、
-                    大切にしたいことを優先できる環境を作ります。
-                  </p>
-                </div>
-                <div className="space-y-3">
-                  <h3 className="text-xl font-semibold text-blue-500 dark:text-blue-300">
-                    ゆるやかなつながり
-                  </h3>
-                  <p className="text-gray-600 dark:text-gray-300">
-                    強制や義務感ではなく、自然体で参加できる
-                    居心地の良いコミュニティを心がけています。
-                  </p>
-                </div>
               </div>
             </section>
 
