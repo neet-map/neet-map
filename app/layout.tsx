@@ -13,10 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NEET相互扶助計画(仮)",
+  title: "NEET相互扶助計画",
   description: "It's the only NEET things to do",
   icons: {
-    icon: "/favicon.svg",
+    icon: "/neet-map.png",
+    shortcut: "/neet-map.png",
+    apple: "/neet-map.png",
   },
   verification: {
     google: "8aPmMLQsUhE6h2w-3UypXomR_61JUOFpqJsNYJtnUoM",
