@@ -32,11 +32,14 @@ const appsData: AppData[] = [
     status: 'released'
   },
   {
-    id: 'next-project',
-    name: 'Next Project',
-    description: 'アイデア検討中',
-    status: 'development'
-  }
+    id: 'n-board',
+    name: 'N-Board',
+    description: '内部向けのグループウェアです',
+    icon: '/n-board_icon.png',
+    screenshot: '/n-board.png',
+    link: 'https://n-board.com',
+    status: 'released'
+  },
 ];
 
 export default function ProductPage() {
